@@ -1,0 +1,8 @@
+package com.edubridge.app3;
+
+public class SimpleCalc {
+	public static float simpleinterest(float P,float R,float T) {
+		return P*R*T/100;	
+	}
+	
+}

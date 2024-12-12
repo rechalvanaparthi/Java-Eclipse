@@ -1,0 +1,19 @@
+package sirproject;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class StudentTest {
+	public static void main(String[] args) {
+		List<Student> students = Arrays.asList(
+				new Student(101,"Wills","JFS"),
+				new Student(102,"Smith","JFS"),
+				new Student(103,"Jones","PFS"),
+				new Student(104,"Alice","PFS"),
+				new Student(105,"Alex","JFS")
+				
+				);
+		System.out.println("..........All Students...........");
+		students.forEach(System.out :: println);
+	}
+}
