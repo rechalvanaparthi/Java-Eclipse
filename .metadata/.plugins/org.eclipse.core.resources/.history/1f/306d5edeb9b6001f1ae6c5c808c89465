@@ -1,6 +1,0 @@
-package com.edubridge.app3;
-
-public class SimpleCalc{
-	float P = 10000, R = 5, T = 5;
-    float SI = (P * T * R) / 100;  
-}

@@ -1,8 +1,0 @@
-package com.edubridge.app3;
-
-public class SimpleCalc{
-	public static int findsimpleinterest(int P,int R,int T) {
-		return P*R*T/100;	
-	}
-	
-}
